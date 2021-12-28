@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+</head>
+
+</html>
+<body>
+    <section class="navbar">
+    <!-- header  -->
+
+
+      <a href="https://front.codes/" class="logo" target="_blank">
+		<img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+	</a>
+
+  	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+  	<label for="menu-icon"></label>
+  	<nav class="nav"> 		
+  		<ul class="pt-5">
+  			<li><a href="#">Work</a></li>
+  			<li><a href="#">Studio</a></li>
+  			<li><a href="#">News</a></li>
+  			<li><a href="#">Contact</a></li>
+  		</ul>
+  	</nav>
+
+  	<div class="section-center">
+  	</div>
+      <!-- header ends -->
+    </section>
+    <section class="sliding">
+      <!-- events krousel effect -->
+      <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+      </head>
+      <div class="container">
+        <div class="card">
+          <h3 class="title">event 1</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <circle class="stroke" cx="60" cy="60" r="50"/>
+          </svg>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">evewnt 2</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <circle class="stroke" cx="60" cy="60" r="50"/>
+          </svg>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Card 3</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <circle class="stroke" cx="60" cy="60" r="50"/>
+          </svg>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Card 4</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <circle class="stroke" cx="60" cy="60" r="50"/>
+          </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+<div class="lg:content-auto">
+</html>
